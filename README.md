@@ -22,14 +22,14 @@
 3. **Преобразование типов**  
    - Добавление числовых колонок `quantity_int` и `price_numeric`.  
    - Создание финальной таблицы `all_sales_2019_clean` с преобразованной датой и извлечённым городом из адреса.  
-   - Скрипт: [`sql/03_type_conversion.sql`](sql/03_type_conversion.sql) и [`sql/04_create_clean_table.sql`](sql/04_create_clean_table.sql)
+   - Скрипт: [`sql/03_type_conversion.sql`](sql/sql/03_type_conversion.sql) и [`sql/04_create_clean_table.sql`](sql/sql/04_create_clean_table.sql)
 
 4. **Анализ и визуализация**  
    - Общая статистика (заказы, выручка, средний чек).  
    - Динамика выручки по месяцам (график).  
    - Топ-5 товаров и городов по выручке.  
    - Распределение заказов по дням недели.  
-   - Скрипт: [`sql/05_analytical_queries.sql`](sql/05_analytical_queries.sql)
+   - Скрипт: [`sql/05_analytical_queries.sql`](sql/sql/05_analytical_queries.sql)
 
 ## Результаты и инсайты
 - **Общая выручка за 2019 год:** ~36 млн (уточните вашу цифру)  
